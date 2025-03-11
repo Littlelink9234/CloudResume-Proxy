@@ -32,47 +32,30 @@
   "parameters": {
     "webAppName": {
       "type": "string",
-      "defaultValue": "my-unique-webapp-name",
+      "defaultValue": "expressproxy",
       "metadata": {
         "description": "The name of the Web App"
       }
     },
     "appServicePlanName": {
       "type": "string",
-      "defaultValue": "myAppServicePlan",
+      "defaultValue": "ASP-rghtmlresume-8800",
       "metadata": {
         "description": "The name of the App Service Plan"
       }
     },
     "skuTier": {
       "type": "string",
-      "defaultValue": "Standard",
-      "allowedValues": [
-        "Free",
-        "Shared",
-        "Basic",
-        "Standard",
-        "Premium"
-      ],
+      "defaultValue": "Free",
+      "allowedValues": ["Free"],
       "metadata": {
         "description": "The pricing tier for the App Service Plan"
       }
     },
     "skuName": {
       "type": "string",
-      "defaultValue": "S1",
-      "allowedValues": [
-        "F1",
-        "B1",
-        "B2",
-        "B3",
-        "S1",
-        "S2",
-        "S3",
-        "P1v2",
-        "P2v2",
-        "P3v2"
-      ],
+      "defaultValue": "F1",
+      "allowedValues": ["F1"],
       "metadata": {
         "description": "The SKU for the App Service Plan"
       }
